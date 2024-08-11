@@ -22,7 +22,7 @@ const isActive = (href) => {
       href="/"
       aria-label={title}
       class="grid place-items-center py-3 text-primary"
-      ><Icon name="logo" class="h-6" /></a
+      ><Icon name="logo" class="h-6"/></a
     >
     {
       menu && (
@@ -64,7 +64,7 @@ const isActive = (href) => {
                   target="_blank"
                   aria-label={link.label}
                 >
-                  <Icon name={link.icon} class="w-6 h-6" />
+                  <Icon name={link.icon} class="h-6 w-6" />
                 </a>
               </li>
             ))}
@@ -81,7 +81,7 @@ const isActive = (href) => {
               <Icon name="menu-solid" class="h-10 w-10" slot="menu" />
 
               <Icon name="close" class="h-10 w-10" slot="close" />
-              <Icon name="logo" class="w-full" slot="logo" />
+              <Icon name="logo" class="w-full" slot="logo" width={800} />
               <ul
                 class="mobile-links nav-links mt-3 w-full text-center"
                 slot="links"
