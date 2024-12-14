@@ -23,7 +23,7 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.techlead.ma",
+  site: "https://techlead.ma",
   integrations: [
     icon(),
     mdx({}),
